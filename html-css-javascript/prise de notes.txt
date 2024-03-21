@@ -1,0 +1,20 @@
+mettre un target dans le frameset si on veut qu'il s'execute sur une autre grille 
+
+<a href="page1.html" target="f1">Lien</a> 
+
+balise meta permet la description de la page avec la langue 
+
+formatage d'un texte : appliqué des formes des couleurs des tailles a un texte 
+
+un serveur rend un service 
+
+language statique 
+
+language coté client c'est un language qui s'execute directement sans l'utilisation d'un serveur 
+
+
+JAVASCRIPT
+
+
+UNE METHODE est la fonction d'un objet
+LA HIERARCHIE DES OBJETS 

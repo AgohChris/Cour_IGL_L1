@@ -1,0 +1,23 @@
+p{
+    color: blue;
+}
+/*p .paragraphe1{
+    background-color: gold;
+}*/
+.paragraphe2{
+    border: 10Px gold outset;
+    width: 500px;
+    text-indent: 10px;
+}
+.paragraphe1{
+    background-color: gold;
+}
+.paragraphe2 span em{
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}

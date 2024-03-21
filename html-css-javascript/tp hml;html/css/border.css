@@ -1,0 +1,7 @@
+.p1{
+    border:3px dashed blue;
+}
+.p2{
+    border:3px solid blue;
+    box-shadow: red;
+}

@@ -1,0 +1,4 @@
+la difference entre un logiciel une application et un systeme d'exploitation
+pipe permet d'enchainer plusieurs commanande
+
+les trois v 

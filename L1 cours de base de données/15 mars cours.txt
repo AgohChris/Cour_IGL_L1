@@ -1,0 +1,1 @@
+comment modifier le type de serveur sur xamppp

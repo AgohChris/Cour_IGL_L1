@@ -1,0 +1,44 @@
+requetes pour afficher les donnés avec differentes tables 
+*sans jointure 
+
+select 
+	v.numero,
+	p.marque,
+	c.nom,
+	c.telephone
+	DATE_FORMAT(v.date,'%d/%m/%Y') date
+from
+		vente v,produit p,client c
+where
+	(v.ref_produit=p.reference)and(v.no_client=c.client)
+	
+*avec jointures 
+
+SELECT
+    v.numero,
+    p.marque,
+    c.nom,
+    c.telephone,
+    DATE_FORMAT(v.date,'%d/%m/%Y') date
+from
+	vente v
+    LEFT JOIN produit p ON p.refrence=v.ref_produit
+    LEFT JOIN client c on c.numero=v.no_client
+
+comment aficher les ventes d'un client 
+*
+SELECT 
+	v.numero,
+    p.marque,
+    c.nom,
+    DATE_FORMAT(v.date,'%d/%m/%Y') date
+    
+ FROM
+ 	vente v
+LEFT JOIN produit p ON p.reference=v.ref_produit
+LEFT JOIN client c on c.numero=v.no_client
+WHERE c.nom='durand'
+
+afficher les clients qui n'ont pas de numero de telephone
+
+SELECT nom from client where telephone IS NULL

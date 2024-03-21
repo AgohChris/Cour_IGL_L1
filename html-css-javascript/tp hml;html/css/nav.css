@@ -1,0 +1,57 @@
+body{
+    background-color:darkblue;
+    display: flex;
+}
+nav{
+
+    background-color: aqua;
+    width: 400px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    float: left;
+    height: min-content;
+}
+ul{
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+}
+li a{
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+display: block;
+color: white;
+}
+li:hover{
+    background-color: goldenrod;
+}
+li{
+    background-color: rgb(8, 173, 8);
+    border: 1px solid white;
+    margin:5px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+section{
+    background-color: aqua;
+    border-radius: 5px;
+    height: 500px;
+    float: right;
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+   
+
+}
+article{
+    background-color: rgb(129, 131, 127);
+    border-radius: 5px;
+    border: 1px solid white;
+    width: fit-content;
+    margin-left: 10px;
+    color: white;
+
+}
